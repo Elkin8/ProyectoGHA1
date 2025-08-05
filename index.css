@@ -1,0 +1,47 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general del body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* fondo degradado */
+    color: #ffffff;
+    padding: 2rem;
+    min-height: 100vh;
+}
+
+/* Encabezado principal */
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #ffdd57;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+/* Subtítulo */
+h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    color: #ffffffcc;
+}
+
+/* Responsive tip */
+@media (max-width: 600px) {
+    body {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
